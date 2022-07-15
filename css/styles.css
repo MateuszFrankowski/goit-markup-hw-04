@@ -140,7 +140,7 @@ body {
 .header {
   background-color: var(--header-backgroud-dark);
   text-align: center;
-  background-image: url('images/headerbackground.jpg');
+  background-image: url('../images/headerbackground.jpg');
 }
 .header .container {
   padding-top: 200px;
