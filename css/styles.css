@@ -548,7 +548,7 @@ body {
   flex-wrap: wrap;
 }
 .portfolio-list li {
-  width: 370px;
+  max-width: 370px;
   border: 1px solid var(--portfolio-pictures-border);
 }
 /* .portfolio-list li:nth-child(-n + 6) {
@@ -557,8 +557,10 @@ body {
 .portfolio-picture figcaption {
   padding: 20px 24px;
 }
-.portfolio-picture figure img {
+.portfolio-picture img {
   object-fit: cover;
+  display: block;
+  width: 100%;
 }
 .portfolio-list li:hover,
 .portfolio-list li:focus {
